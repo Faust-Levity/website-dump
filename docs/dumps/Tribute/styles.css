@@ -1,0 +1,53 @@
+html {
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+header, div {
+    text-align: center;
+}
+
+.img-container {
+    display: block;
+    justify-content: center;
+}
+
+figcaption {
+    font-size: 0.7rem;
+    margin: 1px;
+}
+
+
+img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    margin: 0 30%;
+}
+
+li {
+    font-size: 0.8rem;
+    text-align: justify;
+    margin: 5px 1px;
+}

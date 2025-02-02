@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey for the first exam</title>
+</head>
+
+
+<!-- My very first learning project, so it will be not seroius. Enjoy! -->
+
+<body>
+  <div class="container">
+  <header>
+    <h1 id="title">Survey for exam</h1>
+    <p id="description" class="description">Please fill the void and good luck!</p>
+  </header>
+
+<form id="survey-form">
+
+  <fieldset>
+
+    <div>
+      <label for="name2" id="name-label" class="question">Vorname:</label>
+      <input required autocomplete="off" type="text" id="name" class="inline-input" placeholder="I hope you have one">
+    </div>
+
+    <div>
+      <label for="name2" id="name-label2" class="question">Surname:</label>
+      <input required autocomplete="off" type="text" id="name2" class="inline-input" placeholder=".. where did I left my surname again >_< ">
+    </div>
+
+    <div>
+      <label for="email" id="email-label" class="question">Email:</label>
+      <input required autocomplete="off" type="email" id="email" class="inline-input" placeholder="something@illegal.ru">
+    </div>
+
+    <div>
+      <label for="number" id="number-label" class="question">How old are you?</label>
+      <input required type="number" id="number" min="13" max="200" class="inline-input" placeholder="The golden days are far gone already, eh?">
+    </div>
+
+  </fieldset>
+  
+  <fieldset>
+    <div>
+      <label for="dropdown" class="inline-input question">Wich is your favourite one-digit umber?</label>
+        <select id="dropdown" class="dropdown1">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2"> 2</option>
+          <option value="3"> 3</option>
+          <option value="4"> 3...</option>
+          <option value="5"> Maan, I can´t count</option>
+          <option value="6"> Not even read</option>
+          <option value="7"> Hey, what´s for dinner?</option>
+          <option value="8"> ...</option>
+          <option value="9"> A what?</option>
+          <option value="10"> >:C</option>
+          <option value="11"> ...yeah, I´m goin´...</option>
+        </select>
+    </div>
+
+  </fieldset>
+
+  <fieldset>
+    <div>
+      <p class="question">How do you like my first website so far?</p>
+
+      <label for="radio1" class="inline-input answer-italic">
+      <input name="radio" id="radio1" type="radio" value="r1" checked> ...meh
+      </label>
+
+      <label for="radio2" class="inline-input answer-italic">
+      <input name="radio" id="radio2" type="radio" value="r2"> It´s okay... 
+      </label>
+
+    </div>
+  
+</fieldset>
+
+<fieldset>
+  
+  <div>
+	  <p class="question" id="checkbox">Have you seen my gun?</p>
+  </div>
+
+  <div>
+	  <input type="checkbox" id="checkbox1" name="checkbox-input1" value="1">
+	  <label for="checkbox1" class="answer-italic">What gun?</label>
+  </div>
+
+  <div>
+	  <input type="checkbox" id="checkbox2" name="checkbox-input2" value="2">
+	  <label for="checkbox2" class="answer-italic">Oh, that?</label>
+
+<!-- 
+
+  (                                 _
+   )                               /=>
+  (  +____________________/\/\___ / /|
+   .''._____________'._____      / /|/\
+  : () :              :\ ----\|    \ )
+   '..'______________.'0|----|      \
+                    0_0/____/        \
+                        |----    /----\
+                       || -\\ --|      \
+                       ||   || ||\      \
+                        \\____// '|      \
+Bang! Bang!                     .'/       |
+                               .:/        |
+                               :/_________|
+                                           DeXteR/MJP
+
+-->
+
+
+  </div>
+
+  <div>
+	  <input type="checkbox" id="checkbox3" name="checkbox-input3" value="3">
+	  <label for="checkbox3" class="answer-italic">Is this a reference to something or what?</label>
+  </div>
+</fieldset>
+
+<fieldset>
+  <div class="inline-input">
+    <label for="textarea" class="question">How do you like that very short and minimalistic website?</label>
+  </div>
+
+  <div class="inline-input">
+    <textarea name="textarea" id="textarea" rows="5" placeholder="for ex.: That was a waste of time, but at least a fast one" ></textarea>
+  </div>
+
+  <input type="submit" id="submit" />
+
+  </fieldset>
+
+    </form>
+  </div>
+</body>
+
+</html>
